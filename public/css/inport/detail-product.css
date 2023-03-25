@@ -1,0 +1,153 @@
+.section-detail{
+    display:flex;
+    padding: 15px;
+    background: #fff;
+}
+#main-thumb{
+    width: 350px !important;
+    height: 350px !important;
+}
+.zoomWrapper {
+    border: 1px solid #ddd !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-thumb img {
+    display: flex !important;
+    max-width: 350px !important;
+    max-height: 350px !important;
+    margin: 0 auto !important;
+}
+.section-detail .info{
+    padding-left: 30px;
+}
+.section-detail .info .product-name{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: unset;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+
+#detail-product-wp .info .desc {
+    margin-bottom: 15px;
+}
+#detail-product-wp .info .num-product {
+    margin-bottom: 15px;
+}
+#detail-product-wp .info .num-product .title{color: #666;}
+#detail-product-wp .info .num-product .status {
+    display: inline-block;
+    background: #ddd;
+    padding: 0px 10px;
+}
+#detail-product-wp .info .price {
+    font-size: 28px;
+    font-weight: 500;
+    color: #f12a43;
+    margin-bottom: 15px;
+}
+#num-order-wp {
+    display: flex;
+    margin-bottom: 25px;
+}
+#minus, #plus {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid #a0a0a0;
+    color: #515151;
+    font-size: 10px;
+    cursor: pointer;
+}
+#num-order {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #b1b1b1;
+    color: #545454;
+    margin: 0 5px;
+}
+#detail-product-wp .add-cart {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    background: green;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#list-thumb {
+    width: 350px;
+}
+#list-thumb .owl-stage-outer {
+    margin-top: 5px;
+}
+/* // end-section-detail */
+#post-product-wp .section-title h4{
+font-weight: 600;
+}
+#post-product-wp .body-section{
+    background: #fff;
+    position: relative;
+    padding: 15px;
+    height: 450px;
+    overflow: hidden;
+}
+#post-product-wp .body-section .seeMore{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,0.8),rgba(255,255,255,1));
+    transition: all .4s ease-in-out;
+    padding-bottom: 25px;
+}
+#post-product-wp .body-section .seeMore span{
+    cursor: pointer;
+    padding: 5px 20px;
+    border: 1px solid #9f4444;
+    color: #cb162e;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+#post-product-wp .body-section .seeMore:hover span{color: #ff0022;border: 1px solid #e03131;}
+
+/* sản phẩm tuong tự
+ */
+ .owl-carousel.list-productSame .item{
+    display: block;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid transparent;
+    position: relative;
+}
+.owl-carousel.list-productSame .owl-dots{
+    display: none;
+}
+.owl-carousel.list-productSame .owl-nav{position: absolute; top:-50px;right:0px;text-align: right;display: flex;}
+.owl-carousel.list-productSame .owl-nav button[type=button]{
+    width: 20px;
+    height: 20px;
+    font-size: 19px;
+    display: flex;
+    color: black;
+    background: #dddddd;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.owl-carousel.list-productSame .owl-nav button.owl-prev:hover{color: #fff;}
+.owl-carousel.list-productSame .owl-nav button.owl-next:hover{color: #fff;}

@@ -1,0 +1,26 @@
+#footer-top{background-color: #fff;}
+.footer{padding: 50px 0px 60px 0px;}
+.f-logo{color: red;}
+.footer p{font-size: 14px;padding: 10px 5px;margin-bottom:0 ;font-weight: 500;}
+.footer .logo-bank{max-width:200px ;}
+.footer h5{font-size: 18px;}
+.footer ol li{color: red;}
+.footer ol li .warranty-policy{text-decoration: none; color:#000;font-size: 14px;}
+.footer ol li .warranty-policy:hover{color:rgb(204, 201, 201); ;}
+.footer form #uu-dai{
+    width: 100%;
+    border: 1px solid #edecec;
+    outline: none;
+    line-height: 24px; 
+    padding: 5px;  
+}
+.footer form button{
+    margin-top: 10px;
+    width: 100%;
+    background: red;
+    color: #fff;
+    padding: 5px;
+    border: none;
+}
+#footer-bot{background: #f12a43;}
+#copy-right{color: #fff;padding: 10px;font-size: 15px;text-align: center;}

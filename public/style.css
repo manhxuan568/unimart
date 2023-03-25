@@ -1,0 +1,12 @@
+/* INPORT CSS FLIES FROM SECTIONS */
+@import url("../public/css/inport/reset.css");
+@import url("../public/css/inport/global.css");
+@import url("../public/css/inport/header.css");
+@import url("../public/css/inport/footer.css");
+@import url("../public/css/inport/home.css");
+@import url("../public/css/inport/product.css");
+@import url("../public/css/inport/post.css");
+@import url("../public/css/inport/page.css");
+@import url("../public/css/inport/detail-product.css");
+@import url("../public/css/inport/cart.css");
+@import url("../public/css/inport/checkout.css");

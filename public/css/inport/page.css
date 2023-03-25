@@ -1,0 +1,15 @@
+
+.page-title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.create-page{
+    color: #888;
+    padding: 15px 0 25px 10px;
+}
+#page-wp{
+    background: #fff;
+    padding: 15px;
+}
+.image.image_resized img{width: 100px;}
+.page-content table tbody{background: #fff;}

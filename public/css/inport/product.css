@@ -1,0 +1,41 @@
+#content-wp-product{
+    padding-bottom: 75px;
+    margin-top: 120px;
+}
+#list-products-phone{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.breadcrumb{padding-left: 0rem;}
+#breadcrumb-wp .breadcrumb-item+.breadcrumb-item::before {
+   content: ">";
+}
+.breadcrumb-item .link-page{
+    color: rgb(43, 43, 43);
+    font-size: 15px;
+    text-decoration: none;
+}
+.fillter-product-wp .body-section{
+    width: 100%;
+    display: block;
+    padding: 20px 20px 0;
+    background: #fff;
+}
+.fillter-product-wp .body-section .filter-title{color: red;}
+.fillter-product-wp .body-section table{margin-bottom: 20px;}
+.filter-wp{
+    text-align: right;
+}
+.form-filter .select-filter{
+    width: 18%;
+    font-size: 12px;
+    border-radius: 6px;
+    padding: 1px 3px;
+}
+.key-search{
+    font-size: 15px;
+    font-style: italic;
+    color: #8b6666;
+    font-weight: 600;
+}
